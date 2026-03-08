@@ -1,0 +1,154 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', ui-monospace, monospace;
+  --font-display: 'Space Grotesk', ui-sans-serif, system-ui, sans-serif;
+
+  --color-accent-50: #f0fdfa;
+  --color-accent-100: #ccfbf1;
+  --color-accent-200: #99f6e4;
+  --color-accent-300: #5eead4;
+  --color-accent-400: #2dd4bf;
+  --color-accent-500: #14b8a6;
+  --color-accent-600: #0d9488;
+  --color-accent-700: #0f766e;
+  --color-accent-800: #115e59;
+  --color-accent-900: #134e4a;
+  --color-accent-950: #0a2e2b;
+
+  --color-sky-200: #bae6fd;
+  --color-sky-800: #075985;
+  --color-sky-900: #0c4a6e;
+
+  --color-surface: #f9fafb;
+  --color-surface-raised: #ffffff;
+  --color-surface-sunken: #f3f4f6;
+
+  --color-border: #e5e7eb;
+  --color-border-hover: #d1d5db;
+}
+
+@variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  .dark {
+    --color-surface: #0a0a0a;
+    --color-surface-raised: #171717;
+    --color-surface-sunken: #111111;
+    --color-border: #27272a;
+    --color-border-hover: #3f3f46;
+  }
+
+  body {
+    @apply bg-surface text-gray-900 antialiased dark:text-gray-100;
+    font-size: 18px;
+    line-height: 1.75;
+  }
+
+  ::selection {
+    @apply bg-accent-200 dark:bg-accent-800;
+  }
+}
+
+@layer components {
+  .text-gradient {
+    @apply bg-gradient-to-r from-accent-500 to-sky-800 bg-clip-text text-transparent;
+  }
+
+  .card-hover {
+    @apply transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md hover:border-accent-400/50;
+  }
+
+  .focus-ring {
+    @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent-500 focus-visible:ring-offset-2 focus-visible:ring-offset-surface;
+  }
+
+  .callout {
+    @apply my-4 rounded-lg border-l-4 border-accent-400 bg-accent-50 p-4 dark:bg-accent-950/30;
+  }
+
+  .code-block {
+    @apply my-6 overflow-hidden rounded-xl border border-border;
+  }
+
+  .code-block-header {
+    @apply flex items-center justify-between border-b border-border bg-surface-sunken px-4 py-2;
+  }
+
+  .code-block-lang {
+    @apply text-xs font-semibold uppercase tracking-wider text-gray-500 dark:text-gray-400;
+  }
+
+  .code-copy-btn {
+    @apply cursor-pointer rounded-md border-none bg-transparent px-2.5 py-1 text-xs font-medium text-gray-500 transition-colors hover:bg-surface hover:text-gray-700 dark:text-gray-400 dark:hover:bg-surface-raised dark:hover:text-gray-200;
+  }
+}
+
+@layer base {
+  .prose {
+    --tw-prose-links: var(--color-accent-600);
+    max-width: none;
+  }
+
+  .dark .prose {
+    --tw-prose-links: var(--color-accent-400);
+  }
+
+  .prose a {
+    @apply underline decoration-accent-400/50 underline-offset-2 transition-colors duration-150 hover:decoration-accent-500;
+  }
+
+  .prose :not(pre) > code {
+    @apply rounded bg-surface-sunken px-1.5 py-0.5 text-sm font-medium;
+  }
+
+  .prose h2 {
+    @apply border-l-4 border-accent-400 pl-4;
+  }
+}
+
+/* Hero curved bottom edge */
+.hero-curve {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.hero-curve::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: -5%;
+  width: 110%;
+  height: 60px;
+  background: var(--color-surface);
+  border-radius: 50% 50% 0 0;
+}
+
+pre:has(code) {
+  @apply my-6 overflow-x-auto rounded-xl border border-border p-4;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.code-block pre:has(code) {
+  border: none !important;
+  border-radius: 0 !important;
+  margin: 0 !important;
+}
+
+html:not(.dark) .shiki .dark {
+  display: none;
+}
+html.dark .shiki .light {
+  display: none;
+}
+html.dark .shiki {
+  background-color: var(--shiki-dark-bg) !important;
+}
