@@ -1,0 +1,1009 @@
+[
+  {
+    "slug": "3d-building-on-map",
+    "title": "3D Building on MapBox",
+    "description": "A 3D and Web project that demonstrates how to display 3D buildings on a map using React, TypeScript, MapBox, and Deck.gl.",
+    "date": "2024-10-26T00:00:00.000Z",
+    "url": "https://map.umutlu.net",
+    "repository": "alimuratumutlu//3D-buildings-on-map",
+    "categories": [
+      "3D",
+      "Web"
+    ],
+    "techStack": [
+      "React",
+      "TypeScript",
+      "MapBox",
+      "Deck.gl"
+    ],
+    "platforms": [],
+    "opensource": true
+  },
+  {
+    "slug": "3d-earth-with-three-js",
+    "title": "3D Earth with Three.js",
+    "description": "A 3D project that creates an interactive Earth model using React, TypeScript, and Three.js.",
+    "date": "2024-10-27T00:00:00.000Z",
+    "url": "https://earth.umutlu.net",
+    "repository": "alimuratumutlu/3d-earth-with-three-js",
+    "categories": [
+      "3D"
+    ],
+    "techStack": [
+      "React",
+      "Vite",
+      "TypeScript",
+      "Three.js"
+    ],
+    "platforms": [],
+    "opensource": true,
+    "youtube": "https://youtu.be/Haz0YUKFWB8?si=sw_VZAG56yiEeebT"
+  },
+  {
+    "slug": "admin-dashboard",
+    "title": "Admin Dashboard",
+    "description": "A Web and Dashboard project featuring an Admin Dashboard built with React, TypeScript, Node, Express, and MongoDB.",
+    "date": "2024-10-31T00:00:00.000Z",
+    "url": "https://dashboard.umutlu.net",
+    "categories": [
+      "Dashboard",
+      "Web"
+    ],
+    "techStack": [
+      "React",
+      "TypeScript",
+      "Node",
+      "Express",
+      "MongoDB"
+    ],
+    "platforms": [],
+    "opensource": true
+  },
+  {
+    "slug": "advanced-search",
+    "title": "Advanced Search",
+    "description": "A web application that allows users to search for products on Amazon, eBay, and Etsy using a single search bar.",
+    "date": "2024-10-29T00:00:00.000Z",
+    "url": "https://search.umutlu.net",
+    "categories": [
+      "Dashboard",
+      "Web"
+    ],
+    "techStack": [
+      "React",
+      "TypeScript",
+      "Node",
+      "Express",
+      "MongoDB"
+    ],
+    "platforms": [],
+    "opensource": true
+  },
+  {
+    "slug": "ai-content-builder",
+    "title": "AI Content Builder",
+    "description": "A Web, AI, and SaaS project for building an AI platform, developed with TypeScript, React, Next.js, Node.js, PostgreSQL, PrismaDB, Tailwind CSS, and Stripe.",
+    "repository": "alimuratumutlu/saas-ai-platform",
+    "categories": [
+      "AI",
+      "SaaS",
+      "Web"
+    ],
+    "techStack": [
+      "TypeScript",
+      "React",
+      "Next.js",
+      "Node.js",
+      "PostgreSQL",
+      "PrismaDB",
+      "Tailwind CSS",
+      "Stripe"
+    ],
+    "platforms": [],
+    "opensource": true
+  },
+  {
+    "slug": "ai-image-generation",
+    "title": "AI Image Generation",
+    "description": "An AI and Tool project focused on generating images using AI, built with React, TypeScript, Midjourney, MongoDB, Express, and Node.js.",
+    "repository": "alimuratumutlu/ai-image-generation",
+    "categories": [
+      "AI",
+      "TooL"
+    ],
+    "techStack": [
+      "React",
+      "TypeScript",
+      "Midjourney",
+      "Mongo",
+      "Express",
+      "Node.js"
+    ],
+    "platforms": [],
+    "opensource": true
+  },
+  {
+    "slug": "ai-image-scale",
+    "title": "AI Image Scale",
+    "description": "An AI and Tool project designed to scale images using AI, built with React, TypeScript, Bytescale, Replicate, Vercel, Next.js, Auth.js, Upstash, and Redis.",
+    "repository": "alimuratumutlu/ai-image-scale",
+    "categories": [
+      "AI",
+      "Tool"
+    ],
+    "techStack": [
+      "React",
+      "TypeScript",
+      "Bytescale",
+      "Replicate",
+      "Vercel",
+      "Next.js",
+      "Auth.js",
+      "Upstash",
+      "Redis"
+    ],
+    "platforms": [],
+    "opensource": true
+  },
+  {
+    "slug": "ai-powered-3d-store",
+    "title": "AI-Powered 3D Store",
+    "description": "A 3D, AI, and E-Commerce project that features a 3D shop website powered by AI, built with React, TypeScript, Three.js, and OpenAI.",
+    "repository": "alimuratumutlu/ai-powered-3d-website",
+    "categories": [
+      "3D",
+      "AI",
+      "E-Commerce"
+    ],
+    "techStack": [
+      "React",
+      "TypeScript",
+      "Three.js",
+      "OpenAI"
+    ],
+    "platforms": [],
+    "opensource": true
+  },
+  {
+    "slug": "ai-powered-ide",
+    "title": "AI-Powered IDE",
+    "description": "AI-Powered IDE built with React, Monaco Editor, TypeScript, and OpenAI.",
+    "url": "https://ide.umutlu.net",
+    "categories": [
+      "AI",
+      "IDE"
+    ],
+    "techStack": [
+      "React",
+      "TypeScript",
+      "Monaco Editor",
+      "OpenAI"
+    ],
+    "platforms": [],
+    "opensource": true
+  },
+  {
+    "slug": "ai-saas-application",
+    "title": "AI SaaS App",
+    "description": "An AI and SaaS application that generates copy, branding snippets, and keywords using AI, built with React, TypeScript, Python, AWS, and OpenAI.",
+    "repository": "alimuratumutlu/ai-driven-saas-application",
+    "categories": [
+      "AI",
+      "SaaS"
+    ],
+    "techStack": [
+      "React",
+      "TypeScript",
+      "Python",
+      "AWS",
+      "OpenAI"
+    ],
+    "platforms": [],
+    "opensource": true
+  },
+  {
+    "slug": "ai-saas-chatbot",
+    "title": "AI SaaS Chatbot",
+    "description": "An AI and SaaS project that provides a chatbot service built with React, TypeScript, MongoDB, Express, Node, and OpenAI.",
+    "repository": "alimuratumutlu/ai-saas-chatbot",
+    "categories": [
+      "AI",
+      "SaaS"
+    ],
+    "techStack": [
+      "React",
+      "TypeScript",
+      "MongoDB",
+      "Express",
+      "React",
+      "Node",
+      "OpenAI"
+    ],
+    "platforms": [],
+    "opensource": true
+  },
+  {
+    "slug": "ai-voice-chatbot",
+    "title": "AI Voice Chatbot",
+    "description": "An AI and Chatbot project focused on voice interaction, built with React, TypeScript, FastAPI, and OpenAI.",
+    "repository": "alimuratumutlu/ai-voice-chatbot",
+    "categories": [
+      "AI",
+      "Chatbot"
+    ],
+    "techStack": [
+      "React",
+      "TypeScript",
+      "Fast API",
+      "OpenAI"
+    ],
+    "platforms": [],
+    "opensource": true
+  },
+  {
+    "slug": "airbnb-mobile-clone",
+    "title": "Airbnb Clone",
+    "description": "A mobile application project that replicates the Airbnb mobile experience using TypeScript, Expo, Reanimated, and Clerk.",
+    "repository": "alimuratumutlu/airbnb-mobile-clone",
+    "categories": [
+      "Clone",
+      "Mobile"
+    ],
+    "techStack": [
+      "TypeScript",
+      "Expo",
+      "Reanimated",
+      "Clerk"
+    ],
+    "platforms": [],
+    "opensource": true
+  },
+  {
+    "slug": "airbnb-web-clone",
+    "title": "Airbnb Clone",
+    "description": "A web application project that replicates the Airbnb platform using React, TypeScript, Tailwind CSS, Prisma, MongoDB, and NextAuth.",
+    "repository": "alimuratumutlu/airbnb-web-clone",
+    "categories": [
+      "Clone",
+      "Web"
+    ],
+    "techStack": [
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "PriPrismaDBsma",
+      "MongoDB",
+      "NextAuth"
+    ],
+    "platforms": [],
+    "opensource": true
+  },
+  {
+    "slug": "algorithm-visualize",
+    "title": "Algorithm Visualize",
+    "description": "A Web and Tool project that visualizes algorithms, built with React, Next.js, TypeScript, and Mantine UI.",
+    "date": "2024-10-28T00:00:00.000Z",
+    "url": "https://algo.umutlu.net",
+    "categories": [
+      "Tool",
+      "Web"
+    ],
+    "techStack": [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "Mantine UI"
+    ],
+    "platforms": [],
+    "opensource": true
+  },
+  {
+    "slug": "amazon-price-scraper",
+    "title": "Amazon Price Scraper",
+    "description": "A Web and Tool project for scraping Amazon prices, built with TypeScript and Next.js.",
+    "repository": "alimuratumutlu/amazon-price-scraping-tool",
+    "categories": [
+      "Tool",
+      "Web"
+    ],
+    "techStack": [
+      "TypeScript",
+      "Next.js"
+    ],
+    "platforms": [],
+    "opensource": true
+  },
+  {
+    "slug": "apple-wallet-clone",
+    "title": "Apple Wallet Clone",
+    "description": "A mobile application project that replicates the Apple Wallet experience using TypeScript, React Native, and Reanimated.",
+    "repository": "alimuratumutlu/apple-wallet-mobile-clone",
+    "categories": [
+      "Clone",
+      "Mobile"
+    ],
+    "techStack": [
+      "TypeScript",
+      "React Native",
+      "Reanimated"
+    ],
+    "platforms": [],
+    "opensource": true
+  },
+  {
+    "slug": "best-coding-practices",
+    "title": "Best Coding Practices",
+    "description": "Collection of best coding practices for Algorithms, Cloud Services, System Design, Software Development, Frontend Development, and Backend Development.",
+    "date": "2024-10-28T00:00:00.000Z",
+    "url": "https://doc.umutlu.net",
+    "repository": "alimuratumutlu/best-coding-practices",
+    "categories": [
+      "Tool",
+      "Web"
+    ],
+    "techStack": [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "Mantine UI"
+    ],
+    "platforms": [],
+    "opensource": true
+  },
+  {
+    "slug": "blackboard-simulator",
+    "title": "Blackboard Simulator",
+    "description": "A Web and Tool project that simulates a classroom blackboard with drawing, chalk style, and chalk audio, built with React, Redux, Canvas API, TypeScript, and Fabric.js.",
+    "date": "2024-10-28T00:00:00.000Z",
+    "url": "https://blackboard.umutlu.net",
+    "categories": [
+      "Tool",
+      "Web"
+    ],
+    "techStack": [
+      "React",
+      "Redux",
+      "Canvas API",
+      "TypeScript",
+      "Fabric.js"
+    ],
+    "platforms": [],
+    "opensource": true
+  },
+  {
+    "slug": "booking.com-web-clone",
+    "title": "Booking.com Clone",
+    "description": "A web application project that replicates the Booking.com platform using Oxylabs, Next.js, Tailwind CSS, TypeScript, Storybook, and ShadCN.",
+    "repository": "alimuratumutlu/booking.com-web-clone",
+    "categories": [
+      "Clone",
+      "Web"
+    ],
+    "techStack": [
+      "Oxylabs",
+      "Next.js",
+      "Tailwind CSS",
+      "TypeScript",
+      "Storybook",
+      "ShadCN"
+    ],
+    "platforms": [],
+    "opensource": true
+  },
+  {
+    "slug": "currency-exchange-dapp",
+    "title": "Currency DApp",
+    "description": "A Blockchain, DApp, and Web3 project for currency exchange, built with TypeScript, Web3.js, Solidity, Ethers.js, React, GraphQL, and Apollo.",
+    "repository": "alimuratumutlu/currency-exchange-dapp",
+    "categories": [
+      "Blockchain",
+      "DApp",
+      "Web3"
+    ],
+    "techStack": [
+      "TypeScript",
+      "Web3.js",
+      "Solidity",
+      "Ethers.js",
+      "React",
+      "GraphQL",
+      "Apollo"
+    ],
+    "platforms": [],
+    "opensource": true
+  },
+  {
+    "slug": "duolingo-web-clone",
+    "title": "Duolingo Clone",
+    "description": "A web application project that replicates the Duolingo platform using React, TypeScript, Next.js, Drizzle, and Stripe.",
+    "repository": "alimuratumutlu/duolingo-web-clone",
+    "categories": [
+      "Clone",
+      "Web"
+    ],
+    "techStack": [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "Drizzle",
+      "Stripe"
+    ],
+    "platforms": [],
+    "opensource": true
+  },
+  {
+    "slug": "e-commerce-dashboard",
+    "title": "E-Commerce Panel",
+    "description": "A Web and Dashboard project that integrates e-commerce functionality with a dashboard, built with React, TypeScript, Next.js, Tailwind CSS, PrismaDB, and MySQL.",
+    "repository": "alimuratumutlu/e-commerce-with-dashboard",
+    "categories": [
+      "Dashboard",
+      "Web",
+      "E-Commerce"
+    ],
+    "techStack": [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "Tailwind CSS",
+      "PrismaDB",
+      "MySQL"
+    ],
+    "platforms": [],
+    "opensource": true
+  },
+  {
+    "slug": "finance-dashboard",
+    "title": "Finance Dashboard",
+    "description": "A dashboard for managing finance, built with React, TypeScript, Next.js, and Honojs.",
+    "date": "2024-10-28T00:00:00.000Z",
+    "url": "https://finance.umutlu.net",
+    "categories": [
+      "Dashboard",
+      "Web"
+    ],
+    "techStack": [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "Honojs"
+    ],
+    "platforms": [],
+    "opensource": true
+  },
+  {
+    "slug": "fintech-mobile-app",
+    "title": "FinTech Mobile App",
+    "description": "A Web and SaaS project for managing finance, built with React, TypeScript, Next.js, and Honojs.",
+    "repository": "alimuratumutlu/fintech-mobile-app",
+    "categories": [
+      "Mobile"
+    ],
+    "techStack": [
+      "TypeScript",
+      "API Routes",
+      "Zustand",
+      "React Query",
+      "FaceID",
+      "Charts",
+      "Clerk"
+    ],
+    "platforms": [],
+    "opensource": true
+  },
+  {
+    "slug": "full-mern-website",
+    "title": "Full MERN Website",
+    "description": "A Fullstack Web project built with the MERN stack, incorporating React, TypeScript, Node.js, GraphQL, Apollo, Docker, MongoDB, Express, NestJS, and Tailwind CSS.",
+    "repository": "alimuratumutlu/full-mern-website",
+    "categories": [
+      "Web",
+      "Fullstack"
+    ],
+    "techStack": [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "GraphQL",
+      "Apollo",
+      "Docker",
+      "MongoDB",
+      "Express",
+      "NestJS",
+      "Tailwind CSS"
+    ],
+    "platforms": [],
+    "opensource": true
+  },
+  {
+    "slug": "google-meet-clone",
+    "title": "Google Meet Clone",
+    "description": "A web application project that replicates the Google Meet platform using React, TypeScript, WebRTC, and Socket.IO.",
+    "date": "2024-10-28T00:00:00.000Z",
+    "url": "https://meet.umutlu.net",
+    "categories": [
+      "Clone",
+      "Web"
+    ],
+    "techStack": [
+      "React",
+      "TypeScript",
+      "WebRTC",
+      "Socket.IO"
+    ],
+    "platforms": [],
+    "opensource": true
+  },
+  {
+    "slug": "imessage-mobile",
+    "title": "iMessage Clone",
+    "description": "A mobile application project that replicates the iMessage experience using React Native, TypeScript, and Stream.",
+    "repository": "alimuratumutlu/imessage-mobile-clone",
+    "categories": [
+      "Clone",
+      "Mobile"
+    ],
+    "techStack": [
+      "React Native",
+      "TypeScript",
+      "Stream"
+    ],
+    "platforms": [],
+    "opensource": true
+  },
+  {
+    "slug": "instagram-mobile-clone",
+    "title": "Instagram Clone",
+    "description": "A mobile application project that replicates the Instagram app experience using React Native, TypeScript, Firebase, Formik, and Yup.",
+    "repository": "alimuratumutlu/instagram-mobile-clone",
+    "categories": [
+      "Clone",
+      "Mobile"
+    ],
+    "techStack": [
+      "React Native",
+      "TypeScript",
+      "Firebase",
+      "Formik",
+      "Yup"
+    ],
+    "platforms": [],
+    "opensource": true
+  },
+  {
+    "slug": "json-convertor",
+    "title": "JSON Convertor",
+    "description": "A Web and Tool project for converting JSON data, built with Next.js, TypeScript, and Mantine UI.",
+    "repository": "alimuratumutlu/json-convertor",
+    "categories": [
+      "Tool",
+      "Web"
+    ],
+    "techStack": [
+      "Next.js",
+      "TypeScript",
+      "Mantine UI"
+    ],
+    "platforms": [],
+    "opensource": true
+  },
+  {
+    "slug": "linkedin-mobile-clone",
+    "title": "LinkedIn Clone",
+    "description": "A mobile application project that replicates the LinkedIn app experience using React Native, TypeScript, and Stepzen.",
+    "repository": "alimuratumutlu/linkedin-mobile-clone",
+    "categories": [
+      "Clone",
+      "Mobile"
+    ],
+    "techStack": [
+      "React Native",
+      "TypeScript",
+      "Stepzen"
+    ],
+    "platforms": [],
+    "opensource": true
+  },
+  {
+    "slug": "markdown-editor",
+    "title": "Markdown Editor",
+    "description": "A Web and Tool project for editing Markdown, built with TypeScript, Next.js, and Mantine UI.",
+    "repository": "alimuratumutlu/markdown-editor",
+    "categories": [
+      "Tool",
+      "Web"
+    ],
+    "techStack": [
+      "TypeScript",
+      "Next.js",
+      "Mantine UI"
+    ],
+    "platforms": [],
+    "opensource": true
+  },
+  {
+    "slug": "messenger-web-clone",
+    "title": "Messenger Clone",
+    "description": "A web application project that replicates the Messenger platform.",
+    "repository": "alimuratumutlu/messenger-web-clone",
+    "categories": [
+      "Clone",
+      "Web"
+    ],
+    "techStack": [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "Tailwind CSS",
+      "PrismaDB",
+      "MongoDB",
+      "NextAuth"
+    ],
+    "platforms": [],
+    "opensource": true
+  },
+  {
+    "slug": "miro-web-clone",
+    "title": "Miro Clone",
+    "description": "A web application project that replicates the Miro platform using Next.js, TypeScript, Tailwind CSS, PrismaDB, MongoDB, NextAuth, and Pusher.",
+    "repository": "alimuratumutlu/miro-web-clone",
+    "categories": [
+      "Clone",
+      "Web"
+    ],
+    "techStack": [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "PrismaDB",
+      "MongoDB",
+      "NextAuth",
+      "Pusher"
+    ],
+    "platforms": [],
+    "opensource": true
+  },
+  {
+    "slug": "multiplayer-game",
+    "title": "Multiplayer Game",
+    "description": "A Mobile and Game project for creating a multiplayer game, built with React Native, TypeScript, Supabase, and Skia.",
+    "repository": "alimuratumutlu/multiplayer-mobile-game",
+    "categories": [
+      "Mobile",
+      "Game"
+    ],
+    "techStack": [
+      "React Native",
+      "TypeScript",
+      "Supabase",
+      "Skia"
+    ],
+    "platforms": [],
+    "opensource": true
+  },
+  {
+    "slug": "multiplayer-tic-tac-toe",
+    "title": "Multiplayer Tic-Tac-Toe",
+    "description": "A Web and Game project for creating a multiplayer Tic-Tac-Toe game, built with React, TypeScript, Socket.io, and Node.js.",
+    "repository": "alimuratumutlu/multiplayer-tic-tac-toe",
+    "categories": [
+      "Web",
+      "Game"
+    ],
+    "techStack": [
+      "React",
+      "TypeScript",
+      "Socket.io",
+      "Node.js"
+    ],
+    "platforms": [],
+    "opensource": true
+  },
+  {
+    "slug": "netflix-web-clone",
+    "title": "Netflix Clone",
+    "description": "A web application project that replicates the Netflix platform using TypeScript, React, Tailwind CSS, NextAuth, Next.js, PrismaDB, MongoDB, and Vercel.",
+    "repository": "alimuratumutlu/netflix-web-clone",
+    "categories": [
+      "Clone",
+      "Web"
+    ],
+    "techStack": [
+      "TypeScript",
+      "React",
+      "Tailwind CSS",
+      "NextAuth",
+      "Next.js",
+      "PrismDB",
+      "MongoDB",
+      "Vercel"
+    ],
+    "platforms": [],
+    "opensource": true
+  },
+  {
+    "slug": "notification-system",
+    "title": "Notification System",
+    "description": "A Web and Tool project for building a real-time notification system, utilizing TypeScript, React, Next.js, Mantine UI, GraphQL, Apollo Client, PostgreSQL, Redis, WebSockets, Helm, GitHub Actions, Nginx, Let's Encrypt, and Vercel.",
+    "repository": "alimuratumutlu/real-time-notification-system",
+    "categories": [
+      "Tool",
+      "Web"
+    ],
+    "techStack": [
+      "TypeScript",
+      "React",
+      "Next.js",
+      "Mantine UI",
+      "GraphQL",
+      "Apollo Client",
+      "PostgreSQL",
+      "Redis",
+      "WebSockets",
+      "Helm",
+      "GitHub Actions",
+      "Nginx",
+      "Let's Encrypt",
+      "Vercel"
+    ],
+    "platforms": [],
+    "opensource": true
+  },
+  {
+    "slug": "notion-web-clone",
+    "title": "Notion Clone",
+    "description": "A web application project that replicates the Notion platform using React, TypeScript, Tailwind CSS, NextAuth, and Convex.",
+    "repository": "alimuratumutlu/notion-web-clone",
+    "categories": [
+      "Clone",
+      "Web"
+    ],
+    "techStack": [
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "NextAuth",
+      "Convex"
+    ],
+    "platforms": [],
+    "opensource": true
+  },
+  {
+    "slug": "postman-clone",
+    "title": "Postman Clone",
+    "description": "A Web and Dashboard project that tracks API usage, built with TypeScript, Next.js, and Mantine UI.",
+    "date": "2024-10-28T00:00:00.000Z",
+    "url": "https://kingsman.umutlu.net",
+    "categories": [
+      "Tool",
+      "Web"
+    ],
+    "techStack": [
+      "TypeScript",
+      "Next.js",
+      "Mantine UI"
+    ],
+    "platforms": [],
+    "opensource": true
+  },
+  {
+    "slug": "react-performance",
+    "title": "React Booster",
+    "description": "A Web and Tool project that provides a performance checklist for React applications, built with React, TypeScript, Next.js, Mantine UI, Firestore, and NextAuth.",
+    "repository": "alimuratumutlu/react-performance-checklist",
+    "categories": [
+      "Tool",
+      "Web"
+    ],
+    "techStack": [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "Mantine UI",
+      "Firestore",
+      "NextAuth"
+    ],
+    "platforms": [],
+    "opensource": true
+  },
+  {
+    "slug": "rest-api-ai-saas",
+    "title": "REST API AI SaaS",
+    "description": "A Web, AI, and SaaS project for building a REST API-driven AI service, using TypeScript, NestJS, Node.js, PostgreSQL, and PrismaDB.",
+    "repository": "alimuratumutlu/rest-api-ai-saas",
+    "categories": [
+      "AI",
+      "SaaS",
+      "Web"
+    ],
+    "techStack": [
+      "TypeScript",
+      "NestJS",
+      "Node.js",
+      "PostgreSQL",
+      "PrismaDB"
+    ],
+    "platforms": [],
+    "opensource": true
+  },
+  {
+    "slug": "saas-automation-builder",
+    "title": "SaaS Automation",
+    "description": "A Web and SaaS project for building automation tools, utilizing TypeScript, React, Next.js, Clerk, Stripe, and Bun.",
+    "repository": "alimuratumutlu/web-analytics",
+    "categories": [
+      "SaaS",
+      "Web"
+    ],
+    "techStack": [
+      "TypeScript",
+      "React",
+      "Next.js",
+      "Clerk",
+      "Stripe",
+      "Bun"
+    ],
+    "platforms": [],
+    "opensource": true
+  },
+  {
+    "slug": "saas-website-builder",
+    "title": "SaaS Website Builder",
+    "description": "A Web and SaaS project for building websites, using TypeScript, React, Next.js, Stripe, PrismaDB, MySQL, and Bun.",
+    "repository": "alimuratumutlu/web-analytics",
+    "categories": [
+      "SaaS",
+      "Web"
+    ],
+    "techStack": [
+      "TypeScript",
+      "React",
+      "Next.js",
+      "Stripe",
+      "PrismaDB",
+      "MySQL",
+      "Bun"
+    ],
+    "platforms": [],
+    "opensource": true
+  },
+  {
+    "slug": "spotify-clone",
+    "title": "Spotify Clone",
+    "description": "A web application project that replicates the Spotify platform using TypeScript, React, Stripe, Supabase, PostgreSQL, and Tailwind CSS.",
+    "repository": "alimuratumutlu/spotify-web-clone",
+    "categories": [
+      "Clone",
+      "Web"
+    ],
+    "techStack": [
+      "TypeScript",
+      "React",
+      "Stripe",
+      "Supabase",
+      "PostgreSQL",
+      "Tailwind CSS"
+    ],
+    "platforms": [],
+    "opensource": true
+  },
+  {
+    "slug": "stocks-price-tracker",
+    "title": "Stocks Price Tracker",
+    "description": "A mobile app for tracking stock prices, built with TypeScript, React Native, Expo, and GraphQL using IBM StepZen for data management.",
+    "repository": "alimuratumutlu/stocks-price-tracker-mobile-app",
+    "categories": [
+      "Mobile"
+    ],
+    "techStack": [
+      "TypeScript",
+      "React Native",
+      "Expo",
+      "GraphQL",
+      "IBM StepZen"
+    ],
+    "platforms": [],
+    "opensource": true
+  },
+  {
+    "slug": "telegram-mobile-clone",
+    "title": "Telegram Clone",
+    "description": "A mobile clone of Telegram, built with TypeScript, React Native, Expo, Stream for messaging, and Supabase for backend services.",
+    "repository": "alimuratumutlu/telegram-mobile-clone",
+    "categories": [
+      "Clone",
+      "Mobile"
+    ],
+    "techStack": [
+      "TypeScript",
+      "React Native",
+      "Expo",
+      "Stream",
+      "Supabase"
+    ],
+    "platforms": [],
+    "opensource": true
+  },
+  {
+    "slug": "trello-clone",
+    "title": "Trello Clone",
+    "description": "A web application clone of Trello, built with TypeScript, React, Next.js, Tailwind CSS for styling, Stripe for payments, PrismaDB, and MySQL for database management.",
+    "date": "2024-10-29T00:00:00.000Z",
+    "url": "https://trello.umutlu.net",
+    "categories": [
+      "Clone",
+      "Web"
+    ],
+    "techStack": [
+      "TypeScript",
+      "React",
+      "Next.js",
+      "Tailwind CSS",
+      "Stripe",
+      "PrismaDB",
+      "MySQL"
+    ],
+    "platforms": [],
+    "opensource": true
+  },
+  {
+    "slug": "uber-mobile-clone",
+    "title": "Uber Clone",
+    "description": "A mobile application clone of Uber, built with TypeScript, React Native, and Expo for cross-platform development. Includes Redux for state management, Tailwind CSS for styling, and Google AutoComplete API for location services.",
+    "repository": "alimuratumutlu/uber-mobile-clone",
+    "categories": [
+      "Clone",
+      "Mobile"
+    ],
+    "techStack": [
+      "TypeScript",
+      "React Native",
+      "Expo",
+      "Redux",
+      "Tailwind CSS",
+      "Google AutoComplete API"
+    ],
+    "platforms": [],
+    "opensource": true
+  },
+  {
+    "slug": "voting-dapplication",
+    "title": "Voting DApplication",
+    "description": "A decentralized application (DApp) for voting, built with Solidity and Truffle for smart contracts, and React with TypeScript for the front-end.",
+    "repository": "alimuratumutlu/voting-dapplication",
+    "categories": [
+      "Blockchain",
+      "DApp"
+    ],
+    "techStack": [
+      "Solidity",
+      "Truffle",
+      "Web3.js",
+      "React",
+      "TypeScript"
+    ],
+    "platforms": [],
+    "opensource": true
+  },
+  {
+    "slug": "whatsapp-mobile-clone",
+    "title": "WhatsApp Clone",
+    "description": "This is a mobile application replicating the core features of WhatsApp, including messaging, chat management, and notifications, built with React Native and Expo.",
+    "repository": "alimuratumutlu/whatsapp-mobile-clone",
+    "categories": [
+      "Clone",
+      "Mobile"
+    ],
+    "techStack": [
+      "TypeScript",
+      "React Native",
+      "Expo",
+      "Reanimated",
+      "Clerk",
+      "Gestures",
+      "Gifted Chat"
+    ],
+    "platforms": [],
+    "opensource": true
+  }
+]
