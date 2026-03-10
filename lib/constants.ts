@@ -14,6 +14,7 @@ export const SITE_CONFIG: SiteConfig = {
     { label: 'Haberler', href: '/haber' },
     { label: 'Analizler', href: '/analiz' },
     { label: 'Rehberler', href: '/rehber' },
+    { label: 'Projeler', href: '/projects' },
     { label: 'Hakkımda', href: '/about' },
   ],
 }
