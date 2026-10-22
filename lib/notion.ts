@@ -151,10 +151,9 @@ async function fetchFromDB(dbKey: DBKey): Promise<BlogPost[]> {
     let hasMore = true
 
     while (hasMore) {
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any
       const response = await notion.databases.query({
         database_id: db.id,
-        filter: db.publishFilter as any,
+        filter: db.publishFilter,
         sorts: [{ property: 'Yayın Tarihi', direction: 'descending' }],
         start_cursor: cursor,
         page_size: 100,
@@ -221,7 +220,7 @@ export const getPostBySlug = unstable_cache(
             database_id: db.id,
             filter: {
               and: [
-                db.publishFilter as any,
+                db.publishFilter,
                 { property: 'Slug', rich_text: { equals: slug } },
               ],
             },

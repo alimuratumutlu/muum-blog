@@ -1,39 +1,64 @@
 'use client'
 
-import { useEffect, useState } from 'react'
+import { useEffect, useState, useSyncExternalStore } from 'react'
 
 type Theme = 'light' | 'dark' | 'system'
 
+function subscribeToHydration(): () => void {
+  return () => {}
+}
+
+function getInitialTheme(): Theme {
+  if (typeof window === 'undefined') return 'system'
+
+  try {
+    const stored = localStorage.getItem('theme')
+    if (stored === 'light' || stored === 'dark' || stored === 'system') {
+      return stored
+    }
+  } catch {
+    // Keep the default usable when browser storage is unavailable.
+  }
+
+  return 'system'
+}
+
+function applyTheme(t: Theme): void {
+  const root = document.documentElement
+  if (
+    t === 'dark' ||
+    (t === 'system' &&
+      window.matchMedia('(prefers-color-scheme: dark)').matches)
+  ) {
+    root.classList.add('dark')
+  } else {
+    root.classList.remove('dark')
+  }
+}
+
 export default function ThemeToggle() {
-  const [theme, setTheme] = useState<Theme>('system')
-  const [mounted, setMounted] = useState(false)
+  const [theme, setTheme] = useState<Theme>(getInitialTheme)
+  const mounted = useSyncExternalStore(subscribeToHydration, () => true, () => false)
 
   useEffect(() => {
-    setMounted(true)
-    const stored = localStorage.getItem('theme') as Theme | null
-    if (stored) {
-      setTheme(stored)
-    }
-  }, [])
+    applyTheme(theme)
+    if (theme !== 'system') return
 
-  function applyTheme(t: Theme): void {
-    const root = document.documentElement
-    if (
-      t === 'dark' ||
-      (t === 'system' &&
-        window.matchMedia('(prefers-color-scheme: dark)').matches)
-    ) {
-      root.classList.add('dark')
-    } else {
-      root.classList.remove('dark')
-    }
-  }
+    const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)')
+    const handlePreferenceChange = () => applyTheme('system')
+    mediaQuery.addEventListener('change', handlePreferenceChange)
+    return () => mediaQuery.removeEventListener('change', handlePreferenceChange)
+  }, [theme])
 
   function toggleTheme(): void {
     const next: Theme =
       theme === 'light' ? 'dark' : theme === 'dark' ? 'system' : 'light'
     setTheme(next)
-    localStorage.setItem('theme', next)
+    try {
+      localStorage.setItem('theme', next)
+    } catch {
+      // The selected theme still works for this page without persistence.
+    }
     applyTheme(next)
   }
 
